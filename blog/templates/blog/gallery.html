@@ -1,0 +1,36 @@
+
+
+{% extends "blog/base.html" %}
+{% block content %}
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--</body>-->
+<!--</html>-->
+
+{% load static %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<span> hellol    dffdgffg </span> <br>
+
+{% for image in images %}
+ <li>  {{ image replace(" ", "") }} </li>
+<li>{% static 'miika/images/' %} {{ image.strip }}</li>
+<li>{{ image }} </li>>
+   <!--url(% static '../images/miikalogogreen.png' %);-->
+    <img src= "{% static 'miika/images/' %} {{image}}  ">
+{% endfor %}
+
+{% endblock content %}

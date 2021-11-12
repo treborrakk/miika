@@ -1,0 +1,222 @@
+
+
+/* This is a single-line comment
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+*/
+/*
+body {
+  background-image: url('../images/miikalogogreen.png'),url('../images/basebackground.png');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100% 50% 50% ;
+}
+*/
+
+.miika {
+    font-family: 'Open Sans', sans-serif;font-size: 200px;font-style: bold;color:#1A73E8; letter-spacing: -25px;
+            text-shadow:
+     -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+ }
+
+body {
+  background-image: url('../images/miika2.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+}
+body.miika {
+  background-image: url('../images/miika2.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+}
+
+body.blog {
+  background-image:  url('../images/basebackgroundgray.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+ /* background-position: center top, left top; */
+}
+
+body.about {
+  background-image:  url('../images/basebackgroundgray.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100% ;
+ /* background-position: center top, left top; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.bg-steel1 {
+  background-color: #D8D221;
+  }
+
+.bg-miikablue {
+  background-color: #1A73E8;
+  }
+
+
+/*
+.site-header .navbar-nav .nav-link {
+  color:
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+*/
+.site-header .navbar-nav .nav-link {
+  color: #5f788a;
+}
+.site-header .navbar-nav .nav-link:hover {
+    color: #0000FF
+}
+
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+
+/* blog */
+//color: #1A73E8;
+//color: #cbd5db;
+
+.site-headerblog .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+
+
+.site-headerblog .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    }
+.site-headerblog .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.miika2 {font-size: 300px;}
+
+.content-sectionblogheader1 {
+    height: 40%;
+    width: 100%;
+    background-image: url('../images/GIF1.gif' ) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.content-sectionblog {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/miikalogogreen.png' ) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.content-sectionabout {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/miikalogogreen.png' ) ;
+    background-repeat: no-repeat;
+    background-size: auto
+}
+
+.content-sectionmiika {
+    height: 150%;
+    width: 150%;
+    background-image: url('../images/miikaavatar.png' ) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+/*
+background-attachment: fixed;
+background-position: center top;
+background-position: center top; */
+
+/* blog */
+
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+
