@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'exhlfdat&vfum(-34*c2uroi(($ww(
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://immense-shore-17080.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
