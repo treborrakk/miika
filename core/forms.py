@@ -25,6 +25,7 @@ class SubjectForm(forms.ModelForm):
     #     required=True,
     #     to_field_name='value'
     # )
+
     subject_type = forms.ModelChoiceField(
         label="Subject Type",
         # widget=forms.Select,
