@@ -14,7 +14,7 @@ YES_NO = (
 
 
 class LookupType(models.Model):
-    id = models.AutoField(primary_key=True)
+    # id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=500)
     active = models.CharField(max_length=10, choices = YES_NO)
@@ -29,7 +29,7 @@ class LookupType(models.Model):
 
 
 class Lookup(models.Model):
-    id = models.AutoField(primary_key=True)
+    # id = models.AutoField(primary_key=True)
     lookup_type = models.ForeignKey(LookupType, on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=500)
