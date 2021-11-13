@@ -5,7 +5,7 @@ from core.models import Subject, LookupType, Lookup
 from .models import *
 
 year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
-subject_code_lov = LookupType.objects.filter(name='SUBJECT_CODE').first()
+# subject_code_lov = LookupType.objects.filter(name='SUBJECT_CODE').first()
 subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
 
 class SubjectForm(forms.ModelForm):
