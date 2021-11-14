@@ -1,8 +1,8 @@
 from django import forms
 
-from .models import Subject
+# from .models import Subject
 from core.models import Subject, LookupType, Lookup
-from .models import *
+# from .models import *
 
 year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
 # subject_code_lov = LookupType.objects.filter(name='SUBJECT_CODE').first()
