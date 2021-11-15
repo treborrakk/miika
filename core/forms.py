@@ -19,14 +19,14 @@ if LookupType.objects.filter(name='SUBJECT_TYPE').exists():
 
 
 class SubjectForm(forms.ModelForm):
-    # year_level = forms.ModelChoiceField(
-    #     label="Types of Year Level",
-    #     # widget=forms.Select,
-    #     widget=forms.Select(attrs={'class': 'form-control'}),
-    #     queryset=Lookup.objects.filter(lookup_type_id=year_level_lov.id),
-    #     required=True,
-    #     to_field_name='value'
-    # )
+    year_level = forms.ModelChoiceField(
+        label="Types of Year Level",
+        # widget=forms.Select,
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        queryset=Lookup.objects.filter(lookup_type_id=year_level_lov.id),
+        required=True,
+        to_field_name='value'
+    )
 
     # subject_code = forms.ModelChoiceField(
     #     label="Subject Code",
@@ -37,14 +37,14 @@ class SubjectForm(forms.ModelForm):
     #     to_field_name='value'
     # )
 
-    # subject_type = forms.ModelChoiceField(
-    #     label="Subject Type",
-    #     # widget=forms.Select,
-    #     widget=forms.Select(attrs={'class': 'form-control'}),
-    #     queryset=Lookup.objects.filter(lookup_type_id=subject_type_lov.id),
-    #     required=True,
-    #     to_field_name='value'
-    # )
+    subject_type = forms.ModelChoiceField(
+        label="Subject Type",
+        # widget=forms.Select,
+        widget=forms.Select(attrs={'class': 'form-control'}),
+        queryset=Lookup.objects.filter(lookup_type_id=subject_type_lov.id),
+        required=True,
+        to_field_name='value'
+    )
     class Meta:
         model = Subject
         fields = ('year_level', 'subject_code', 'subject_description', 'lesson_number', 'lesson_name', 'cover', 'file',

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afde143c-74cc-4dfe-ac0a-6fa37974b1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datadump.json" beforeDir="false" afterPath="$PROJECT_DIR$/datadump.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miika/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/miika/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miika/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+            <state relative-caret-position="64">
+              <caret line="185" selection-start-line="185" selection-start-column="2" selection-end-line="186" selection-end-column="42" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="644">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -220,10 +220,10 @@
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/users/urls.py" />
-        <option value="$PROJECT_DIR$/miika/settings.py" />
         <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/datadump.json" />
         <option value="$PROJECT_DIR$/core/forms.py" />
+        <option value="$PROJECT_DIR$/miika/settings.py" />
       </list>
     </option>
   </component>
@@ -280,6 +280,12 @@
               <item name="miika" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miika" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miika" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +403,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1338" y="17" width="1357" height="669" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2934041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -794,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miika/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-          <folding>
-            <element signature="e#313#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -853,10 +848,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="46" selection-end-column="7" />
+        <state relative-caret-position="644">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miika/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="185" selection-start-line="185" selection-start-column="2" selection-end-line="186" selection-end-column="42" />
+          <folding>
+            <element signature="e#313#322#0" expanded="true" />
           </folding>
         </state>
       </provider>

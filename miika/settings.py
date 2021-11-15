@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'exhlfdat&vfum(-34*c2uroi(($ww(
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['https://immense-shore-17080.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['immense-shore-17080.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -95,13 +95,23 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
+# 'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'miika',
+#         'DISABLE_SERVER_SIDE_CURSORS': True,
+#         'USER': 'mikamekanika',
+#         'PASSWORD': 'vabbatch21',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+
 'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'miika',
+        'NAME': 'ddq66vhqet6rjh',
         'DISABLE_SERVER_SIDE_CURSORS': True,
-        'USER': 'mikamekanika',
-        'PASSWORD': 'vabbatch21',
-        'HOST': 'localhost',
+        'USER': 'qgqzassehpevdk',
+        'PASSWORD': '5eeefb64be4526e5eb4fc21755c899995b7109c84787645db6ec0a2c4014d126',
+        'HOST': 'ec2-44-194-232-228.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 
@@ -173,8 +183,8 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 # Heroku: Update database configuration from $DATABASE_URL.
 
 
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
