@@ -14,13 +14,14 @@ YES_NO = (
 
 
 class LookupType(models.Model):
-    # id = models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=500)
     active = models.CharField(max_length=10, choices = YES_NO)
 
     def __str__(self):
         return self.name
+
 
     class Meta:
         db_table = "lookuptype"
@@ -29,7 +30,7 @@ class LookupType(models.Model):
 
 
 class Lookup(models.Model):
-    # id = models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     lookup_type = models.ForeignKey(LookupType, on_delete=models.CASCADE)
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=500)
@@ -50,7 +51,8 @@ def fileLocation(instance, filename):
 #     return 'uploads/{0}/{1}/{2}/'.format(instance.year_level, instance.subject_code, instance.lesson_number)
 
 class Subject(models.Model):
-    year_level = models.CharField(max_length=100)
+    # year_level = models.CharField(max_length=100)
+    year_level = models.CharField(max_length=100, null=True, blank=True)
     subject_code = models.CharField(max_length=100)
     subject_description = models.CharField(max_length=500)
     lesson_number = models.IntegerField(null=True, blank=True)

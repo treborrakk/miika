@@ -4,9 +4,19 @@ from django import forms
 from core.models import Subject, LookupType, Lookup
 # from .models import *
 
-year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
+# year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
+# subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
+
+# year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
+# subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
+
 # subject_code_lov = LookupType.objects.filter(name='SUBJECT_CODE').first()
-subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
+
+if LookupType.objects.filter(name='YEAR_LEVEL').exists():
+    year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
+if LookupType.objects.filter(name='SUBJECT_TYPE').exists():
+    subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
+
 
 class SubjectForm(forms.ModelForm):
     year_level = forms.ModelChoiceField(
