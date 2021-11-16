@@ -12,10 +12,10 @@ from core.models import Subject, LookupType, Lookup
 
 # subject_code_lov = LookupType.objects.filter(name='SUBJECT_CODE').first()
 
-if LookupType.objects.filter(name='YEAR_LEVEL').exists():
-    year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
-if LookupType.objects.filter(name='SUBJECT_TYPE').exists():
-    subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
+# if LookupType.objects.filter(name='YEAR_LEVEL').exists():
+year_level_lov = LookupType.objects.filter(name='YEAR_LEVEL').first()
+# if LookupType.objects.filter(name='SUBJECT_TYPE').exists():
+subject_type_lov = LookupType.objects.filter(name='SUBJECT_TYPE').first()
 
 
 class SubjectForm(forms.ModelForm):
