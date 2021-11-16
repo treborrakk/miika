@@ -4,7 +4,6 @@
     <list default="true" id="afde143c-74cc-4dfe-ac0a-6fa37974b1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miika/templates/miika/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/miika/templates/miika/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miika/templates/miika/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/miika/templates/miika/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miika/templates/miika/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/miika/templates/miika/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miika/templates/miika/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="148">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miika/templates/miika/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="78" selection-end-column="17" />
               <folding>
                 <element signature="n#center#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
@@ -218,15 +217,15 @@
         <option value="$PROJECT_DIR$/core/forms.py" />
         <option value="$PROJECT_DIR$/miika/static/miika/css/main.css" />
         <option value="$PROJECT_DIR$/static/miika/css/main.css" />
-        <option value="$PROJECT_DIR$/miika/templates/miika/home.html" />
         <option value="$PROJECT_DIR$/miika/templates/miika/contact.html" />
         <option value="$PROJECT_DIR$/miika/templates/miika/about.html" />
+        <option value="$PROJECT_DIR$/miika/templates/miika/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1424" />
-    <option name="y" value="127" />
+    <option name="x" value="1339" />
+    <option name="y" value="186" />
     <option name="width" value="1432" />
     <option name="height" value="669" />
   </component>
@@ -386,10 +385,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1424" y="127" width="1432" height="669" extended-state="0" />
+    <frame x="1339" y="186" width="1432" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27761838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27761838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +399,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960846" visible="true" weight="0.44402984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49960846" visible="true" weight="0.44402984" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039154" side_tool="true" weight="0.38817006" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -833,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miika/templates/miika/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="78" selection-end-column="17" />
           <folding>
             <element signature="n#center#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#center#0;n#!!top" expanded="true" />
@@ -848,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miika/templates/miika/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="148">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
