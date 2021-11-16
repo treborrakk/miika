@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afde143c-74cc-4dfe-ac0a-6fa37974b1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miika/static/miika/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/miika/static/miika/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miika/templates/miika/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/miika/templates/miika/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/miika/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/miika/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
@@ -69,6 +66,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miika/static/miika/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/miika/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -76,36 +91,6 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2722">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miika/templates/miika/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/templates/core/edit_subject.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -206,17 +191,17 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/blog/templates/blog/home.html" />
-        <option value="$PROJECT_DIR$/miika/static/miika/css/main.css" />
-        <option value="$PROJECT_DIR$/static/miika/css/main.css" />
         <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/miika/templates/miika/home.html" />
         <option value="$PROJECT_DIR$/core/forms.py" />
+        <option value="$PROJECT_DIR$/miika/static/miika/css/main.css" />
+        <option value="$PROJECT_DIR$/static/miika/css/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1342" />
-    <option name="y" value="91" />
+    <option name="x" value="56" />
+    <option name="y" value="92" />
     <option name="width" value="1357" />
     <option name="height" value="669" />
   </component>
@@ -236,20 +221,20 @@
             <path>
               <item name="miika" type="b2602c69:ProjectViewProjectNode" />
               <item name="miika" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miika" type="b2602c69:ProjectViewProjectNode" />
               <item name="miika" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="miika" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miika" type="b2602c69:ProjectViewProjectNode" />
               <item name="miika" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="miika" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miika" type="b2602c69:ProjectViewProjectNode" />
@@ -366,7 +351,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1342" y="91" width="1357" height="669" extended-state="0" />
+    <frame x="56" y="92" width="1357" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934041" />
@@ -692,25 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miika/static/miika/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/miika/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miika/templates/miika/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -821,6 +787,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -828,6 +799,20 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miika/static/miika/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/miika/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
         </state>
       </provider>
     </entry>
